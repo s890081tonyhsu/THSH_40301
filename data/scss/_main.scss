@@ -1,0 +1,38 @@
+@import "compass/css3/transform-legacy";
+@mixin cover{
+   	$len:70%;
+	position:absolute;
+	left:(100%-$len)/2;
+	top:(100%-$len)/2;
+	width:$len;
+	height:$len;
+}
+@mixin CoverPosition($width,$height,$left,$top,$rotate){
+	position:absolute;
+	width:$width;
+	height:$height;
+	left:$left;
+	top:$top;
+	@include rotate($rotate);
+	img{
+		width:$width;
+		height:$height;
+	}
+}
+#mainpage{
+   	#cover1{
+		@include CoverPosition(200px,150px,200px,100px,-45deg);
+	}
+	#cover2{
+		@include CoverPosition(200px,150px,250px,120px,-30deg);
+	}
+	#cover3{
+		@include CoverPosition(200px,150px,300px,140px,-15deg);
+	}	
+	h3{
+		color:white;
+		position:absolute;
+		right:10%;
+		bottom:5%;
+	}
+}
