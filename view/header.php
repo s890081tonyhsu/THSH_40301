@@ -1,1 +1,3 @@
-//This is the space to put the header
+<?php
+	//This is the space to put the header
+?>

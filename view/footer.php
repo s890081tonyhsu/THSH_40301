@@ -1,1 +1,3 @@
-//This is the footer of the website.
+<?php 
+	//This is the footer of the website.
+?>

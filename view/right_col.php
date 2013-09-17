@@ -1,1 +1,3 @@
-//This is the right side of the page.
+<?php
+	//This is the right side of the page.
+?>
