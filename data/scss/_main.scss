@@ -20,15 +20,6 @@
 	}
 }
 #mainpage{
-   	#cover1{
-		@include CoverPosition(200px,150px,200px,100px,-45deg);
-	}
-	#cover2{
-		@include CoverPosition(200px,150px,250px,120px,-30deg);
-	}
-	#cover3{
-		@include CoverPosition(200px,150px,300px,140px,-15deg);
-	}	
 	h3{
 		color:white;
 		position:absolute;
